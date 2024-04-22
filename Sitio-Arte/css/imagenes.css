@@ -1,0 +1,39 @@
+
+img {
+      max-width: 100%;
+}
+@media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+.contenedor{
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding:15px;
+        }
+.contenedor1 {
+        
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px;
+            
+}
+.social {
+    /*las imágenes usadas tienen width de 48px*/
+    width: 100px;
+    
+    z-index:auto;
+    top: 50px;
+    right: 0;
+}
+
+/* Extra centrado vertical*/
+
+.social {
+   overflow: hidden;
+
+}
